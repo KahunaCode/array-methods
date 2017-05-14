@@ -23,4 +23,7 @@ for(var i =6; i<=10; i++){
   genericNumberArray.push(i);
 }
 
-var popResult = colors.pop()
+var popResult = colors.pop();
+
+scrambledWords.reverse();
+phoneNumber.reverse();
