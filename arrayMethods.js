@@ -51,3 +51,7 @@ for(var i = 0; brownOnly.length<5; i++){
 
 orderedValues.unshift(1,2,3);
 var orderedValuesNewLength = orderedValues.length;
+
+var randomThingsArray = genericNumberArray.concat(colors);
+var newOrders =[{takeOut: "teddys"}, {takeOut: "TMR"}];
+var updatedOrders = orderQueue.concat(newOrders);
