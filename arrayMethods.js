@@ -22,3 +22,5 @@ nameArray.push("james", "moore");
 for(var i =6; i<=10; i++){
   genericNumberArray.push(i);
 }
+
+var popResult = colors.pop()
