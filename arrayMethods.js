@@ -36,3 +36,5 @@ mixedWords.sort();
 var notFruit = fruitCollection.splice(1,3);
 gemBox.splice(5,2);
 gemBox.splice(6);
+
+upToTen = [1,2,3,4,5,6,7,8,9,10];
