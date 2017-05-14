@@ -39,7 +39,15 @@ gemBox.splice(6);
 
 upToTen.splice(2,0,3,4,5,6,7,8);
 
-var brownOnly = ['brown', 'brown', 'brown', 'brown', 'brown'];
+//var brownOnly = ['brown', 'brown', 'brown', 'brown', 'brown'];
+for(var i = 0; i<brownOnly.length; i++){
+  if (brownOnly[i] !== 'brown'){
+    brownOnly.splice(i);
+  }
+}
+for(var i = 0; brownOnly.length<5; i++){
+  brownOnly.push("brown");
+}
 
 orderedValues.unshift(1,2,3);
 var orderedValuesNewLength = orderedValues.length;
