@@ -55,3 +55,6 @@ var orderedValuesNewLength = orderedValues.length;
 var randomThingsArray = genericNumberArray.concat(colors);
 var newOrders =[{takeOut: "teddys"}, {takeOut: "TMR"}];
 var updatedOrders = orderQueue.concat(newOrders);
+
+var sentence = scrambledWords.join(' ');
+var myFruits = fruitCollection.join(' + ');
